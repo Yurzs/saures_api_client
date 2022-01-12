@@ -119,7 +119,7 @@ class Location(BaseType):
         self.house: str = kwargs["house"]
         self.personal_account: str = kwargs["personal_account"]
         self.enable: bool = kwargs["enable"]
-        self.balance: float = kwargs["balance"]
+        self.tariffs: dict = kwargs["tariffs"]
         self.object_company_name: str = kwargs["object_company_name"]
         self.object_company_inn: str = kwargs["object_company_inn"]
         self.object_company_account: str = kwargs["object_company_account"]
